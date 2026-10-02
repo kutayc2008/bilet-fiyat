@@ -6,9 +6,9 @@ yaş = int(yaş)
 
 if yaş < 12:
         print("Senin için bilet fiyatı 50 TL")
-elif yaş>= 12 and yaş < 18:
+elif yaş >= 12 and yaş < 18:
     print("Senin için bilet fiyatı 70 TL")
-if öğrenci.lower() == "evet":
+elif öğrenci.lower() == "evet":
     print(f"Merhaba {isim}, demek {yaş} yaşındasın ve öğrenciymişsin senin için bilet fiyatı 80 TL")
 
 else:
